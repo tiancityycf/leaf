@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>socket test</title>
+    <script>
+        function msg(txt){
+            var para=document.createElement("p");
+            var node=document.createTextNode(txt);
+            para.appendChild(node);
+
+            var element=document.getElementById("div");
+            element.appendChild(para);
+        }
+
+        // 打开一个 web socket
+        var ws = new WebSocket('ws://127.0.0.1:3653')
+        var div = document.getElementById("div");
+        var uid = Math.ceil(Math.random()*100);
+        var name = '用户'+uid;
+        ws.onopen = function()
+        {
+            // Web Socket 已连接上，使用 send() 方法发送数据
+            ws.send(JSON.stringify({User: {
+                    Username: name,
+                    Uid:uid
+                }}));
+            /*
+            ws.send(JSON.stringify({REQUEST: {
+                    Action: 'leaf',
+                    Data: 'leafdata'
+                }}));
+                */
+            msg("send msg");
+        };
+
+        // 处理服务器来的消息
+        ws.onmessage = function (event) {
+            var fileReader = new FileReader(); // 用filereader来转blob为arraybuffer
+            fileReader.onload = function() {
+                var arrayBuffer = this.result; // 得到arraybuffer
+                var decoder = new TextDecoder('utf-8')
+                var json = JSON.parse(decoder.decode(new DataView(arrayBuffer)))
+                console.log('response text msg: ' + JSON.stringify(json));
+                msg("rev "+JSON.stringify(json))
+            };
+            fileReader.readAsArrayBuffer(event.data); // 此处读取blob
+        };
+
+        ws.onclose = function()
+        {
+            // 关闭 websocket
+            msg("close ");
+        };
+    </script>
+
+</head>
+<body>
+<div id="div">
+</div>
+</body>
+</html>

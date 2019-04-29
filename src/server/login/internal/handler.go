@@ -37,7 +37,13 @@ func handleUser(args []interface{}) {
 	log.Debug("login uid %v", m.Uid)
 	log.Debug("login gid %v", m.Gid)
     //存储房间相关信息
-    game.ChanRPC.Go("JoinGroup", a , g , m.Uid )
+    //game.ChanRPC.Go("JoinGroup", a , g , m.Uid )
+	skeleton.AsynCall(game.ChanRPC, "JoinGroup", a, g , m.Uid , func(err error) {
+		if nil != err {
+			log.Error("login failed:",err.Error())
+			return
+		}
+	})
 
 	a.SetUserData(m)
 	// 给发送者回应一个 Hello 消息

@@ -1,0 +1,8 @@
+{
+	"LogLevel": "debug",
+	"LogPath": "",
+	"TCPAddr": "127.0.0.1:3563",
+	"MaxConnNum": 20000,
+	"DBUrl": "mongodb://127.0.0.1",
+	"DBMaxConnNum": 100
+}

@@ -2,11 +2,14 @@ package msg
 
 import (
 	"github.com/name5566/leaf/network/json"
+	"github.com/name5566/leaf/network/protobuf"
 )
 
 // 使用默认的 JSON 消息处理器（默认还提供了 protobuf 消息处理器）
-var Processor = json.NewProcessor()
-
+var (
+	Processor = json.NewProcessor()
+	ProtobufProcessor = protobuf.NewProcessor()
+	)
 func init() {
 	// 测试 这里我们注册了一个 JSON 消息 Hello
 	Processor.Register(&Hello{})

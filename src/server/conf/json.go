@@ -16,6 +16,9 @@ var Server struct {
 	MaxConnNum  int
 	ConsolePort int
 	ProfilePath string
+	MgodbAddr string
+	GameMgoConnNum int
+	LoginMgoConnNum int
 }
 
 func init() {

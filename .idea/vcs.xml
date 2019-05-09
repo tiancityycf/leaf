@@ -6,5 +6,13 @@
     <mapping directory="$PROJECT_DIR$/Leaf 使用范例/chat_server/chat/src/github.com/gorilla/websocket" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Leaf 使用范例/chat_server/chat/src/github.com/name5566/leaf" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Leaf 使用范例/chat_server/chat/src/gopkg.in/mgo.v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LeafSample/chat_server/chat/src/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LeafSample/chat_server/chat/src/github.com/gorilla/websocket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LeafSample/chat_server/chat/src/github.com/name5566/leaf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LeafSample/chat_server/chat/src/gopkg.in/mgo.v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/golang/protobuf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/go.mongodb.org/mongo-driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/gopkg.in/mgo.v2" vcs="Git" />
   </component>
 </project>

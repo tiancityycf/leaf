@@ -1,14 +1,27 @@
 package internal
 
 import (
+	"context"
+	"fmt"
 	"github.com/name5566/leaf/gate"
 	"github.com/name5566/leaf/log"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"gopkg.in/mgo.v2"
 	"math/rand"
+	"os"
 	"reflect"
-	"server/msg"
+	"server/conf"
 	"server/game"
+	"server/msg"
 	"time"
 )
+
+var session *mgo.Session
+var client *mongo.Client
+var collection *mongo.Collection
+var insertOneRes *mongo.InsertOneResult
 
 
 func init() {
@@ -45,6 +58,41 @@ func handleUser(args []interface{}) {
 		}
 	})
 
+	//mgo 驱动操作数据库
+	session,err := mgo.Dial(conf.Server.MgodbAddr)
+	if err != nil {
+		log.Fatal("dial mongodb error: %v", err)
+	}
+
+	db := session.DB("game")
+	// load
+	//err = db.C("users").Find(bson.M{"uid": m.Uid}).One(&m)
+	err = db.C("users").Insert(m)
+	if err != nil {
+		// unknown error
+		if err != mgo.ErrNotFound{
+			log.Error("load acc %v data error: %v", m.Uid, err)
+			return
+		}
+
+	}
+
+	//mongo-go-driver驱动操作数据库
+	client,err = mongo.Connect(getContext(),options.Client().ApplyURI(conf.Server.MgodbAddr))
+	checkErr(err)
+	//判断服务是否可用
+	if err = client.Ping(getContext(), readpref.Primary()); err != nil {
+		checkErr(err)
+	}
+
+	//选择数据库和集合
+	collection = client.Database("game").Collection("user")
+
+	//插入一条数据
+	insertOneRes, err = collection.InsertOne(getContext(), m);
+	checkErr(err)
+	fmt.Printf("InsertOne插入的消息ID:%v\n", insertOneRes.InsertedID)
+
 	a.SetUserData(m)
 	// 给发送者回应一个 Hello 消息
 	a.WriteMsg(m)
@@ -53,3 +101,22 @@ func handleUser(args []interface{}) {
 func handleMsg(m interface{}, h interface{}) {
 	skeleton.RegisterChanRPC(reflect.TypeOf(m), h)
 }
+
+func getContext() (ctx context.Context) {
+	ctx, _ = context.WithTimeout(context.Background(), 10*time.Second)
+	return
+}
+
+func checkErr(err error) {
+	if err != nil {
+		if err == mongo.ErrNoDocuments {
+			fmt.Println("没有查到数据")
+			os.Exit(0)
+		} else {
+			fmt.Println(err)
+			os.Exit(0)
+		}
+
+	}
+}
+

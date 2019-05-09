@@ -1,0 +1,12 @@
+{
+  "LogLevel": "debug",
+  "LogPath": "",
+  "TCPAddr": "127.0.0.1:3563",
+  "WSAddr": "127.0.0.1:3653",
+  "MaxConnNum": 20000,
+  "ConsolePort":10000,
+  "ConfPath": "../../bin/xls/",
+  "MgodbAddr":"mongodb://193.112.60.174:27017",
+  "GameMgoConnNum":100,
+  "LoginMgoConnNum":20
+}

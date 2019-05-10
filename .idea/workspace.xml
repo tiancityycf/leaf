@@ -2,94 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65773117-a7be-4a6a-af72-8d58596c2bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/server/conf/server.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_client/chat/encoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_client/chat/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_client/chat/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_client/chat/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/bin/conf/server.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/bin/gamedata/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/bin/log/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/github.com/golang/protobuf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/github.com/gorilla/websocket" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/github.com/name5566/leaf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/gopkg.in/mgo.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/base/skeleton.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/conf/conf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/conf/json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/game/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/game/internal/chanrpc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/game/internal/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/game/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/gamedata/reader.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/gate/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/gate/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/gate/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/login/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/login/internal/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/login/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/chat_server/chat/src/server/msg/msg.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/bin/conf/server.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/bin/gamedata/GlobalConf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/bin/log/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/base/skeleton.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/conf/conf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/conf/json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/internal/chanrpc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/internal/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/internal/mongodb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/internal/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/game/internal/userdata.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/gamedata/globalconf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/gamedata/reader.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/gate/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/gate/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/gate/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/login/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/login/internal/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/login/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/msg/msg.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/bin/conf/server.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/bin/gamedata/GlobalConf.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/bin/log/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/base/skeleton.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/conf/conf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/conf/json.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/chanrpc.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/command.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/mongodb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/user.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/game/internal/userdata.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/gamedata/globalconf.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/gamedata/reader.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/gate/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/gate/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/gate/router.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/login/external.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/login/internal/handler.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/login/internal/module.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeafSample/server_db_example_new/src/server/msg/msg.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/conf/server.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/conf/server.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/server.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver/mongo/mongo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver/mongo/mongo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf/db/mongodb/example_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/name5566/leaf/db/mongodb/mongodb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/conf/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/conf/json.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/login/internal/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/login/internal/handler.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,50 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/msg/msg.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#13#109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/conf/conf.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/conf/json.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server/login/internal/handler.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="e#18#361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -188,64 +59,6 @@
             <path>
               <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go.mongodb.org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go.mongodb.org" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo-driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go.mongodb.org" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo-driver" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,23 +225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/msg/msg.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#13#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/conf/conf.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeafSample/server_db_example/server/src/server/login/internal/handler.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -495,13 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/conf/json.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver/mongo/readpref/readpref.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -518,10 +307,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/login/internal/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="-1750">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/conf/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/conf/conf.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/msg/msg.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="e#18#361#0" expanded="true" />
+            <element signature="e#13#109#0" expanded="true" />
           </folding>
         </state>
       </provider>

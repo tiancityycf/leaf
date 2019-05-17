@@ -31,19 +31,22 @@ type Hello struct {
 type User struct {
 	Uid int64
 	Username string
-	Password string
-	Token string
-	Gid int64
+	Rid int64  		//房间ID
+	Token string 	//交互认证Token
+	Gid int64  		//所属职业
+	Action string   //动作
+	Position string //位置
+	Direction string//当前朝向
 }
 //请求参数
 type REQUEST struct {
-	Action string
-	Data string
+	Method string
+	Body string
 }
 
 //返回值
 type RESPONSE struct {
 	Code int64
 	Msg string
-	Data string
+	Body string
 }

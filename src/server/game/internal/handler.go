@@ -45,7 +45,7 @@ func handleRequest(args []interface{}) {
 	response := &msg.RESPONSE{}
 	response.Code = 1
 	response.Msg = "ok"
-	response.Data = "xxx"
+	response.Body = m.Body
 
 	// 输出收到的消息的内容
 	log.Debug("handleAction %v", m)

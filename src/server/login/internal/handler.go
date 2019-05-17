@@ -41,7 +41,7 @@ func handleUser(args []interface{}) {
 	a := args[1].(gate.Agent)
 
 	//log.Debug("login a1 %v", ginternal.Agents)
-	var g int64 = rand.Int63n(2)
+	var g int64 = rand.Int63n(1)
 
 	rand.Seed(time.Now().UnixNano())
 

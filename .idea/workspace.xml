@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="65773117-a7be-4a6a-af72-8d58596c2bed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/server.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver/mongo/mongo.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/mongodb/mongo-go-driver/mongo/mongo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/log/20190517_16_24_33.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/server.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/server.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/game/internal/chanrpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/game/internal/chanrpc.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/game/internal/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/game/internal/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/login/internal/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/login/internal/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/msg/msg.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/msg/msg.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/msg/msg.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="335">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#13#109#0" expanded="true" />
               </folding>
@@ -34,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/login/internal/handler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            <state relative-caret-position="1385">
+              <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
               <folding>
                 <element signature="e#18#340#0" expanded="true" />
               </folding>
@@ -46,17 +43,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/game/internal/handler.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="249">
+              <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/client.html">
+        <entry file="file://$PROJECT_DIR$/src/server/game/internal/chanrpc.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -68,6 +65,7 @@
       <find>ConsolePort</find>
       <find>Data</find>
       <find>xxx</find>
+      <find>Groups</find>
     </findStrings>
     <dirStrings>
       <dir>D:\goweb\src\leafserver\src\client</dir>
@@ -99,6 +97,14 @@
         <option value="$PROJECT_DIR$/src/client/client.html" />
         <option value="$PROJECT_DIR$/src/server/msg/msg.go" />
         <option value="$PROJECT_DIR$/src/server/login/internal/handler.go" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_13_52_53.log" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_13_56_12.log" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_14_09_57.log" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_14_24_02.log" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_14_26_39.log" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_16_02_51.log" />
+        <option value="$PROJECT_DIR$/bin/log/20190520_16_11_30.log" />
+        <option value="$PROJECT_DIR$/src/server/game/internal/chanrpc.go" />
         <option value="$PROJECT_DIR$/src/server/game/internal/handler.go" />
       </list>
     </option>
@@ -120,6 +126,17 @@
             <path>
               <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="leafserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
@@ -146,13 +163,6 @@
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leafserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leafserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="msg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,34 +225,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/LICENSE" />
-    <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/TUTORIAL_EN.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/TUTORIAL_ZH.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/version.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/log/log.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -376,16 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/game/internal/chanrpc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/game/internal/module.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/go.mongodb.org/mongo-driver/vendor/github.com/golang/snappy/decode_other.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -393,27 +365,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/name5566/leaf/gate/agent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_11_42_40.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="-75">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_13_52_53.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_13_56_12.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_13_58_04.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_14_09_57.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_14_24_02.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_14_26_39.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_14_42_40.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_14_44_44.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/msg/msg.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="335">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#13#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_16_02_51.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_16_11_30.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/game/internal/module.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_16_12_00.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17321">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/log/20190520_16_19_25.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="149" column="76" selection-start-line="149" selection-start-column="76" selection-end-line="149" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/game/internal/chanrpc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/login/internal/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        <state relative-caret-position="1385">
+          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
           <folding>
             <element signature="e#18#340#0" expanded="true" />
           </folding>
@@ -422,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/game/internal/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="249">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,167 @@
+2019/05/20 16:31:50 [release] Leaf 1.1.3 starting up
+2019/05/20 16:32:00 [debug  ] login uid 78
+2019/05/20 16:32:00 [debug  ] login gid 0
+2019/05/20 16:32:00 [debug  ] rpcJoinGroup &{0xc000004120 0xc000138120 <nil>}
+2019/05/20 16:32:00 [debug  ] gamerpcNewAgent map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":207.6,"r":1} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":207.6,"r":1}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=0)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":210.6,"r":2} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":210.6,"r":2}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":213.79999999999998,"r":3} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":213.79999999999998,"r":3}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":216.99999999999997,"r":4} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":216.99999999999997,"r":4}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":220.39999999999998,"r":5} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":220.39999999999998,"r":5}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":225.2,"r":6} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":225.2,"r":6}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":227.39999999999998,"r":7} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":227.39999999999998,"r":7}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":230.59999999999997,"r":8} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":230.59999999999997,"r":8}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":233.79999999999995,"r":9} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":233.79999999999995,"r":9}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":237.39999999999995,"r":10} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":237.39999999999995,"r":10}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":240.99999999999994,"r":11} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":240.99999999999994,"r":11}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":244.19999999999993,"r":12} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":244.19999999999993,"r":12}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":247.99999999999994,"r":13} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":247.99999999999994,"r":13}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":250.59999999999994,"r":14} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":250.59999999999994,"r":14}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":253.79999999999993,"r":15} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":253.79999999999993,"r":15}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:05 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":257.19999999999993,"r":16} })
+2019/05/20 16:32:05 [debug  ] handleAction &{leaf {"x":257.19999999999993,"r":16}}
+2019/05/20 16:32:05 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:05 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":260.5999999999999,"r":17} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":260.5999999999999,"r":17}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":264.19999999999993,"r":18} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":264.19999999999993,"r":18}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":267.19999999999993,"r":19} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":267.19999999999993,"r":19}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":270.3999999999999,"r":20} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":270.3999999999999,"r":20}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":273.99999999999994,"r":21} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":273.99999999999994,"r":21}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":277.3999999999999,"r":22} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":277.3999999999999,"r":22}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":280.3999999999999,"r":23} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":280.3999999999999,"r":23}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":283.99999999999994,"r":24} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":283.99999999999994,"r":24}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":287.19999999999993,"r":25} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":287.19999999999993,"r":25}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":290.3999999999999,"r":26} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":290.3999999999999,"r":26}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":293.7999999999999,"r":27} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":293.7999999999999,"r":27}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":297.1999999999999,"r":28} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":297.1999999999999,"r":28}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":300.59999999999985,"r":29} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":300.59999999999985,"r":29}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] request%!(EXTRA *msg.User=&{78 用户78 0  0  {"x":303.79999999999984,"r":30} })
+2019/05/20 16:32:06 [debug  ] handleAction &{leaf {"x":303.79999999999984,"r":30}}
+2019/05/20 16:32:06 [debug  ] handleAction uids map[78:0xc0001e2210]
+2019/05/20 16:32:06 [release] group %!(EXTRA int=1)
+2019/05/20 16:32:06 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:07 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:08 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:09 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:10 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:11 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:12 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:13 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:14 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:15 [release] {"78":{"Uid":78,"Username":"用户78","Rid":0,"Token":"","Gid":0,"Action":"","Position":"{\"x\":303.79999999999984,\"r\":30}","Direction":""}}
+2019/05/20 16:32:16 [debug  ] read message: websocket: close 1001 (going away)
+2019/05/20 16:32:17 [debug  ] login uid 61
+2019/05/20 16:32:17 [debug  ] login gid 0
+2019/05/20 16:32:17 [debug  ] rpcJoinGroup &{0xc000246c40 0xc000138120 <nil>}
+2019/05/20 16:32:17 [debug  ] gamerpcNewAgent map[61:0xc0002309c0]
+2019/05/20 16:32:18 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:19 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:20 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:21 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:22 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:23 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:24 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:25 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:26 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:27 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:28 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:29 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:30 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:31 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:32 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:33 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:34 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:35 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:36 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:37 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:38 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:39 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:40 [release] {"61":{"Uid":61,"Username":"用户61","Rid":0,"Token":"","Gid":0,"Action":"","Position":"","Direction":""}}
+2019/05/20 16:32:41 [debug  ] login uid 3
+2019/05/20 16:32:41 [debug  ] login gid 0
+2019/05/20 16:32:41 [debug  ] rpcJoinGroup &{0xc000247380 0xc000138120 <nil>}
+2019/05/20 16:32:41 [debug  ] gamerpcNewAgent map[61:0xc0002309c0 3:0xc000231320]

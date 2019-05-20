@@ -11,8 +11,9 @@ var Agents = make(map[gate.Agent]struct{})
 //存储房间相关用户信息 组播用
 var Groups = make(map[int64]map[int64]gate.Agent)
 
+var GroupUsers = make(map[int64]map[int64]*msg.User)
+
 func init() {
-	log.Debug("game init")
 	//这里的 NewAgent 和 CloseAgent 会被 LeafServer 的 gate 模块在连接建立和连接中断时调用
 	//gate 模块这样调用 game 模块的 NewAgent ChanRPC
 	//game.ChanRPC.Go("NewAgent", a)
@@ -28,23 +29,19 @@ func init() {
 //建立连接
 func rpcNewAgent(args []interface{}) {
 	a := args[0].(gate.Agent)
-	log.Debug("gamerpcNewAgent %v", a)
 	//_ = a
 	Agents[a] = struct{}{}
-	log.Debug("gamerpcNewAgent %v", Agents)
-
 }
 //连接断开
 func rpcCloseAgent(args []interface{}) {
 	a := args[0].(gate.Agent)
-	log.Debug("gamerpcCloseAgent %v", a)
 	delete(Agents, a)
 	//连接断开时清除房间用户信息
 	user := a.UserData().(*msg.User)
 	g := user.Gid
 	u := user.Uid
 	delete(Groups[g], u)
-
+	delete(GroupUsers[g], u)
 }
 //加入房间
 func rpcJoinGroup(args []interface{}) {
